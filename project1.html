@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Monkees</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style type="text/css">
+	body{
+        background-color: #F5D76E;
+        /*background-image: url(imgs/photo1.jpg);
+        background-size: contain;*/
+    }
+    img{
+        border: 2px solid;
+    }
+    /*#container{
+            width: 550px;
+            margin: auto;
+    }*/
+
+    #bookevent {
+            width: 550px;
+            margin: auto;
+    }
+
+    
+      form {
+         width: 450px;
+         border: 1px solid #999;
+         border-radius: 20px;
+         clear: both;
+         padding: 20px;
+         margin-bottom: 100px;
+         background-color: rgba(129, 187, 201, .2);
+      }
+      fieldset {
+         margin-bottom: 5px;
+         border: none;
+      }
+      form h1 {
+         font-size: 30px;
+         background-color: #fff;
+         border-radius: 5px;
+         border: 1px solid #999;
+         padding: 4px 15px;
+         width: 160px;
+      }
+    
+      .field {
+         padding: 6px 8px;
+      }
+    
+      label.field,
+      legend {
+         display: block;
+         text-align: left;
+         width: 150px;
+         float: left;
+         clear: both;
+      }
+    
+      input {
+         width: 200px;
+         border-radius: 5px;
+         padding: 6px 8px;
+      }
+    
+
+      #event_type {
+         width: 220px;
+         border-radius: 5px;
+         padding: 6px 8px;
+      }
+      #checkbox {
+         padding: 6px 8px;
+      }
+      #checkbox input {
+         width: 25px;
+         margin-top: 20px;
+      }
+      #radio {
+         padding: 6px 8px;
+      }
+      #radio input {
+         width: 25px;
+         margin-top: 10px;
+      }
+      #submit {
+         width: 50%;
+      }
+
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div class='container'>
+                <div class='row'>
+                    <img src="imgs/logo.jpg" alt="Band logo" width="150" height="75">        
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="win">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#homeTab">Home</a></li>
+            <li><a data-toggle="tab" href="#bandTab">The Band</a></li>
+            <li><a data-toggle="tab" href="#musicTab">Music</a></li>
+            <li><a data-toggle="tab" href="#photos">Photos</a></li>
+            <li><a data-toggle="tab" href="#gigs">Gigs</a></li>
+            <li><a data-toggle="tab" href="#bookEventTab">Book Event</a></li>
+        </ul class="tab-content-right">
+
+        <div class="tab-content">
+            <div id="homeTab" class="tab-pane fade in active">
+                <h1>The Monkees</h1>
+                <p>The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world.</p>
+                    <div class='container'>
+                        <div class='row'>
+                            <div class='col-sm-12 col-md-12 col-lg-12'>
+                                <img src="imgs/monkees.jpg" alt="Band photo">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--end of Home Tab-->
+
+            <div id="bandTab" class="tab-pane fade">
+                <div id="group-photo" align="center">
+                    <h1>The Monkees</h1>
+                    <img src="imgs/band.jpg" id="band" alt="Band photo" width="250" height="250"></h3>
+                </div>
+                <div>   
+                    <h3 align="center">The line up</h3>
+                    <div class='container'>
+                        <div class='row'>
+                            <div id="pta"><img src="imgs/pt.jpg" alt="PT photo" width="210" height="210"><em><strong>Peter</em></strong></div>
+                            <div id="mda"><img src="imgs/md.jpg" alt="MD photo" width="210" height="210"><em><strong>Mickey</strong></em></div>
+                            <div id="mna"><img src="imgs/mn.jpg" alt="MN photo" width="210" height="210"><em><strong>Mike</strong></em></div>
+                            <div id="dja"><img src="imgs/dj.jpg" alt="DJ photo" width="210" height="210"><em><strong>David</strong></em></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end of Band Tab-->
+
+            <div id="musicTab" class="tab-pane fade">
+                <h1>The Monkees</h1>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col-md-4'>
+                            <h3>Album No1</h3>
+                            <img src="imgs/album.jpg" id="album" alt="Album No1" width="250" height="250"
+                            <br>
+                            <p>Recorded somewhere in UK in 19xx</p>
+                            <a href="#" class="btn btn-success">Buy</a>
+                        </div>
+                        <div class='col-md-4'>
+                            <h3>Album No2</h3>
+                            <img src="imgs/album2.jpg" id="album" alt="Album No1" width="250" height="250"
+                            <br>
+                            <p>Recorded somewhere in US in 19xx</p>
+                            <a href="#" class="btn btn-primary">Buy</a>
+                        </div>
+                        <div block class='col-md-4'>
+                            <h3>Album No3</h3>
+                            <img src="imgs/cover.jpg" id="album" alt="Album No1" width="250" height="250"
+                            <br />
+                            <p>Recorded somewhere in US in 19xx</p>
+                            <a href="#" class="btn btn-danger">Buy</a>
+                        </div>  
+                    </div>
+                    <hr>
+                    <div class='row'>
+                        <div class='col-md-6'>
+                            <h1>Listen songs</h1>
+                            <audio controls="container">
+                                <source src="Clarksville.mp3" type="audio/mpeg; codecs=mp3"/>
+                                <source src="Clarksville.ogg" type="audio/ogg; codecs=vorbis"/>
+                            </audio>
+                            <p>Clarksville</p>
+                            <audio controls="container">
+                                <source src="DaydreamBeliever.mp3" type="audio/mpeg; codecs=mp3"/>
+                                <source src="DaydreamBeliever.ogg" type="audio/ogg; codecs=vorbis"/>
+                            </audio>
+                            <p>Daydream Believer</p>
+                            <audio controls="container">
+                                <source src="ImABeliever.mp3" type="audio/mpeg; codecs=mp3"/>
+                                <source src="ImABeliever.ogg" type="audio/ogg; codecs=vorbis"/>
+                            </audio>
+                            <p>Ia A Believer</p>
+                            <audio controls="container">
+                                <source src="Clarksville.mp3" type="audio/mpeg; codecs=mp3"/>
+                                <source src="Clarksville.ogg" type="audio/ogg; codecs=vorbis"/>
+                            </audio>
+                            <p>Stepping Stone</p>
+                        </div>
+                        <div class='col-md-6'>
+                            <h1>Videos</h1>
+                            <video controls="controls" poster="imgs/photo7.jpg">
+                                <source src="video/TheMonkees.mp4" preload="metadata" alt="The Monkees video">
+                                <source src="video/TheMonkees.ogv" preload="metadata" alt="The Monkees video">
+                            </video>    
+                            <p>Sidney March 19xx</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end of Music Tab-->
+
+            <div id="photos" class="tab-pane fade">
+                <h1>The Monkees</h1>
+                <div class='container'>
+                    <div class='row'>
+                        <img src="imgs/cover1.jpg" id="band" alt="Band photo" width="455" height="350">
+                        <img src="imgs/cover3.jpg" id="band" alt="Band photo" width="455" height="350">
+                        <hr>
+                        <img src="imgs/photo1.jpg" id="band" alt="Band photo" width="455" height="350">
+                        <img src="imgs/photo2.jpg" id="band" alt="Band photo" width="455" height="350">
+                        <hr>
+                        <img src="imgs/photo3.jpg" id="band" alt="Band photo" width="455" height="350">
+                        <img src="imgs/photo4.jpg" id="band" alt="Band photo" width="455" height="350">
+                        <hr>
+                         <img src="imgs/photo5.jpg" id="band" alt="Band photo" width="455" height="350">
+                        <img src="imgs/photo6.jpg" id="band" alt="Band photo" width="455" height="350">
+                        <hr>
+                        <img src="imgs/photo7.jpg" id="band" alt="Band photo" width="455" height="350">
+                        <img src="imgs/monkees.jpg" id="band" alt="Band photo" width="455" height="350">
+                    </div>
+                </div>
+            </div>
+            <!--end of Photos Tab-->
+
+            <div id="gigs" class="tab-pane fade">
+                
+                <div class='container'>
+                    <div class='row'>
+                        
+                        <div class="col-lg-12">
+                            <h1 align="center">The Monkees</h1>
+                            <h2 align="center">2018 Gigs around the World!</h2>
+                            <div id="tour" align="center"><h4><strong><em>New York, 1 January 2018</em></strong></h4></div>
+                            <div id="tour" align="center"><h4><strong><em>Tipperary, 2 February 2018</em></strong></h4></div>
+                            <div id="tour" align="center"><h4><strong><em>Tokyo, 3 March 2018</em></strong></h4></div>
+                            <div id="tour" align="center"><h4><strong><em>Cork, 4 April 2018</em></strong></h4></div>
+                            <div id="tour" align="center"><h4><strong><em>Singapour, 5 May 2018</em></strong></h4></div>
+                            <div id="tour" align="center"><h4><strong><em>Limerick, 6 June 2018</em></strong></h4></div>
+                            <div id="tour" align="center"><h4><strong><em>Moscow, 7 July 2018</em></strong></h4></div>
+                            <div id="tour" align="center"><h4><strong><em>Carlow, 8 August 2018</em></strong></h4></div>
+                            <div id="tour" align="center"><h4><strong><em>Berlin, 9 September 2018</em></strong></h4></div>
+                            <div id="tour" align="center"><h4><strong><em>Westport, 10 October 2018</em></strong></h4></div>
+                            <div id="tour" align="center"><h4><strong><em>Melburn, 11 November 2018</em></strong></h4></div>
+                            <div id="tour" align="center"><h4><strong><em>Blanchardstown, 12 December 2018</em></strong></h4></div>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+            <!--end of Fan Zone Tab-->
+
+            <div id="bookEventTab" class="tab-pane fade">
+                <h1>The Monkees</h1>
+                <!--<div class='container'>
+                    <div class='row'>
+                    <p>HELLO!</p>    
+                    </div>
+                </div>
+            </div>-->
+
+
+
+
+
+            <div id="bookevent">
+                <form>
+                    <h1>BOOK NOW!</h1>
+                    <fieldset class="input-boxes">
+
+                        <label for="fname" class="field">Firstname:</label>
+                        <input type="text" id="fname" required="" placeholder="enter your firstname" title="firstname" name="fname"/>
+
+                        <label for="fname" class="field">Surname:</label>
+                        <input type="text" id="fname" required="" placeholder="enter your surname" title="surname" name="fname"/>
+
+                        <label for="email" class="field">Email:</label>
+                        <input id="email" name="email" required="" autofocus="" placeholder="enter your email" type="email" />
+
+                        <label for="telephone" class="field">Telephone:</label>
+                        <input id="telephone" name="telephone" placeholder="enter your mobile number" pattern="[0-9]{10}"  title="Mobile phone number expected beginning 08********" type="tel" />
+
+                        <label for="date" class="field">Date:</label>
+                        <input id="date" type="date" name="date">
+                    </fieldset>
+
+                    <fieldset id="dropdown">
+                        <legend>Book event:</legend>
+                        <select id="event_type" placeholder="select option">
+                            <option>Select option</option>
+                            <option>Wedding</option>
+                            <option>Christmas party</option>
+                            <option>Music venue</option>
+                            <option>Corporate event</option>
+                            <option>Other</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset id="dropdown">
+                        <legend>Buy Album:</legend>
+                        <select id="event_type" placeholder="select album">
+                            <option>Select option</option>
+                            <option>Album No1</option>
+                            <option>Album No2</option>
+                            <option>Album No3</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset id="dropdown">
+                        <legend>Gig tickets:</legend>
+                        <select id="event_type" placeholder="select a gig">
+                            <option>Select option</option>
+                            <option>New York</option>
+                            <option>Tipperary</option>
+                            <option>Tokyo</option>
+                            <option>Cork</option>
+                            <option>Singapore</option>
+                            <option>Limerick</option>
+                            <option>Moscow</option>
+                            <option>Carlow</option>
+                            <option>Berlin</option>
+                            <option>Westport</option>
+                            <option>Melbourne</option>
+                            <option>Blanchardstown</option>
+                            </select>
+                    </fieldset>
+
+                    <fieldset class="input-boxes">
+                        <label for="credit_card" class="field">Credit card number:</label>
+                        <input id="credit_card" name="credit_card" placeholder="enter credit card number" pattern="[0-9] {16}" title="Credit car number 16 numbers long" type ="text" />
+
+                        <label for="submit" class="field">Check availability:</label>
+                        <input id="submit" type="submit" value="submit"/>
+                    </fieldset>  
+                </form>
+            </div>
+            <!--end of Book Event Tab-->
+
+        </div>
+
+    </div>
+    <div id="footer" class="col-12">
+        
+        <div class='container' align="center">
+            <div class='row'>
+                <h2>Get in touch with us on:</h2>
+                <a href="https://twitter.com/TheMonkees" class="btn btn-primary btn-lg">Twitter</a>
+                <a href="https://www.facebook.com/TheMonkees" class="btn btn-primary btn-lg">Facebook</a>
+                <a href="https://www.youtube.com/user/themonkees" class="btn btn-danger btn-lg">YouTube</a>
+            </div>
+        </div>
+        <a href="#"><img id="toTopRight" src="images/arrow.png" alt="Link to top"></a>
+    </div>
+</body>
+</html>                                		

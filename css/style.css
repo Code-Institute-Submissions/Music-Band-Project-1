@@ -1,0 +1,127 @@
+.win{
+	margin: 20px;
+}
+.top{
+    margin: 20px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+body{
+    background-color: #F5D76E;
+    /*background-image: url(imgs/photo1.jpg);
+    background-size: contain;*/
+}
+#footer{
+    background-color: none;
+    margin: 20px;
+} 
+/*#fanZoneTab{
+    background-image: url(cover2.jpg);
+    background-size: cover;*/
+}
+#group-photo{
+    display: block;
+    width: 290px;
+    padding: 20px;
+    margin: 50px auto;        
+    background-color: #ffd800;
+    border: 2px solid;
+    border-radius: 15px;
+    background-size: cover;
+}
+#pta, #mda, #mna, #dja{
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+    background-color: #ffd800;
+    border: 2px solid;
+    border-radius: 15px;
+    background-size: cover;
+}
+#tour{
+    display: block;
+    width: 450px;
+    padding: 20px;
+    margin: 5px auto 0 auto;
+    background-color: #ffd800;
+    border: 2px solid;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+img{
+    border: 2px solid;
+}
+#toTopRight {
+    position: absolute; /* Absolute Link */
+    bottom: 0; /* Offset however we wish*/
+    right: 20px;
+}
+
+/*Booking form*/
+/*form h1 {
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 4px 15px;
+    width: 160px;
+}*/
+
+/*#bookevent {
+    width: 550px;
+    margin: auto;
+}*/
+/*form {
+    width: 450px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    clear: both;
+    padding: 20px;
+    margin-bottom: 100px;
+    background-color: rgba(129, 187, 201, .2);
+}*/
+/*fieldset {
+    margin-bottom: 5px;
+    border: none;
+}
+form h1 {
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 4px 15px;
+    width: 160px;
+}
+.field {
+    padding: 6px 8px;
+
+}
+label.field,
+legend {
+    display: block;
+    text-align: left;
+    width: 100px;
+    float: left;
+    clear: both;
+}
+input {
+    width: 200px;
+    border-radius: 5px;
+    padding: 6px 8px;
+}
+#submit {
+    width: 100%;
+}
+
+#currency{
+width: 220px;
+border-radius: 5px;
+padding: 6px 8px;
+}
+
+/*:focus{
+background-color: #FFECE9;
+}*/
